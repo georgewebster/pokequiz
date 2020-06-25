@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/bg"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_leaderboard"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+
+<!--    Row 1-->
+    <LinearLayout
+        android:id="@+id/leaderboard_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:padding="15dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/lifeline_button">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:id="@+id/leaderboard_row1_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/leaderboard_row1_score"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+<!--    Row2-->
+    <LinearLayout
+        android:id="@+id/leaderboard_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:padding="15dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/lifeline_button">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:id="@+id/leaderboard_row2_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/leaderboard_row2_score"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+    <!--    Row3-->
+    <LinearLayout
+        android:id="@+id/leaderboard_row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:padding="15dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/lifeline_button">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:id="@+id/leaderboard_row3_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/leaderboard_row3_score"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+    <!--    Row4-->
+    <LinearLayout
+        android:id="@+id/leaderboard_row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:padding="15dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/lifeline_button">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_4"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:id="@+id/leaderboard_row4_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/leaderboard_row4_score"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+    <!--    Row5-->
+    <LinearLayout
+        android:id="@+id/leaderboard_row5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:padding="15dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/lifeline_button">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:id="@+id/leaderboard_row5_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/leaderboard_row5_score"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/leaderboard_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        style="@style/MenuButton"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/main_menu" />
+
+</LinearLayout>

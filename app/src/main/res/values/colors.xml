@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#525252</color>
+    <color name="colorAccent">#FFDE00</color>
+
+    <color name="Red">#FF0000</color>
+    <color name="BostonUniversityRed">#CC0000</color>
+    <color name="CeruleanBlue">#3B4CCA</color>
+    <color name="GoldenYellow">#FFDE00</color>
+    <color name="GoldFoil">#B3A125</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#858585</color>
+    <color name="grey2">#494949</color>
+    <color name="grey3">#2A2B2A</color>
+    <color name="black">#000000</color>
+
+    <color name="bg">#FDA4A4</color>
+    <color name="yellow">#FCD279</color>
+    <color name="green">#79D882</color>
+    <color name="purple">#9E7682</color>
+
+</resources>

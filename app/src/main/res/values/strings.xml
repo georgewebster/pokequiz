@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Poké Quiz</string>
+
+    <!--MainMenu-->
+    <string name="poke_quiz_logo">Poké Quiz Logo</string>
+    <string name="menu_start">START</string>
+    <string name="menu_continue">CONTINUE</string>
+    <string name="menu_help">HELP</string>
+    <string name="menu_leaderboard">LEADERBOARD</string>
+    <string name="hard_enabled">HARD MODE: ENABLED</string>
+    <string name="hard_disabled">HARD MODE: DISABLED</string>
+
+
+    <!--Question-->
+    <string name="image_question_box">Image Question Box</string>
+    <string name="lifeline">USE LIFELINE</string>
+    <string name="temp_qNum">Q46</string>
+    <string name="temp_score">88.88k</string>
+    <string name="question_number">Q%1$s</string>
+    <string name="question_score">%1$s k</string>
+    <string name="question_name">What is the name of this Pokemon?</string>
+    <string name="question_type">What type is this Pokemon?</string>
+    <string name="question_ability">What are this Pokemons abilities?</string>
+    <string name="question_id">"What is this Pokemon's Pokedex number?</string>
+    <string name="pokeball">pokeball</string>
+
+    <!-- Score Splash -->
+    <string name="splash">+%1$s</string>
+    <string name="temp_score_splash">+325</string>
+
+    <!--GameOver/HighScore-->
+    <string name="game_over">GAME OVER</string>
+    <string name="new_high_score">NEW HIGH SCORE!</string>
+    <string name="stats">STATS</string>
+    <string name="temp_game_over_q">34</string>
+    <string name="correct_questions">&#160;CORRECT QUESTIONS!</string>
+    <string name="temp_game_over_s">23000</string>
+    <string name="pokescore">&#160;POKESCORE!</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="your_name">Your Name</string>
+    <string name="submit_high_score">SAVE HIGH SCORE</string>
+    <string name="help_3">PokéQuiz was created as a university project by George Webster.</string>
+    <string name="help_4">Pokémon and Pokémon character names are trademarks of Nintendo.</string>
+    <string name="help_5">PokéQuiz was made possible by the team at pokeapi.co, check them out by clicking the image below for more information!</string>
+    <string name="pokeapi_logo">pokeapi logo</string>
+    <string name="share">SHARE HIGH SCORE</string>
+
+    <!--Leaderboard-->
+    <string name="_1">1.</string>
+    <string name="_2">2.</string>
+    <string name="_3">3.</string>
+    <string name="_4">4.</string>
+    <string name="_5">5.</string>
+
+    <!-- Loading Splash -->
+    <string name="internet_required">An internet connection is required to play PokéQuiz!</string>
+
+    <!-- Help -->
+    <string name="rules">RULES</string>
+    <string name="help_1">Answer consecutive multiple choice trivia questions about your favourite 1st Gen Pokémon and compare scores with your friends.</string>
+    <string name="help_2">HARD MODE: Up to 7th Gen Pokémon!</string>
+    <string name="about">ABOUT</string>
+
+
+
+</resources>

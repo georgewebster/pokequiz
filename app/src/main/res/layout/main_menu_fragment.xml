@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg"
+    android:paddingBottom="20dp"
+>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/poke_quiz_logo"
+        android:src="@drawable/_logo" />
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/menu_start" />
+
+    <Button
+        android:id="@+id/how_to_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        style="@style/MenuButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/menu_help" />
+
+    <Button
+        android:id="@+id/leaderboard_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        style="@style/MenuButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/menu_leaderboard" />
+
+    <Button
+        android:id="@+id/hard_mode_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        style="@style/MenuButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/hard_disabled" />
+
+
+
+</LinearLayout>
